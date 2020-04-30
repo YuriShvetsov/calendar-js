@@ -1,0 +1,35 @@
+/* Header styles */
+
+.header {
+  font-family: $main-font, Georgia, 'Times New Roman', Times, serif;
+}
+
+.header__title {
+  color: #333;
+}
+
+/* Other */
+
+.table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+.table__th,
+.table__td {
+  padding: 3px 0;
+  text-align: left;
+}
+
+.table__row {
+  border-bottom: 1px solid #ccc;
+}
+
+.table__row_head {
+  border-bottom: 2px solid #ccc;
+}
+
+.table__row:nth-child(2n+2) {
+  background-color: #f9f9f9;
+}
