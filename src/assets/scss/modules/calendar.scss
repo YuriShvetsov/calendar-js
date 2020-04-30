@@ -1,0 +1,65 @@
+/* Calendar */
+
+$color-calendar-blue: #3172ff;
+$color-calendar-red: #ff3831;
+
+.calendar-year {
+  margin: 12px 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: $color-calendar-blue;
+}
+
+.calendar-container {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Nunito', sans-serif;
+}
+
+.calendar {
+  display: block;
+  margin: 4px;
+  padding: 10px 0;
+  background-color: #fff;
+  border-collapse: collapse;
+  border-spacing: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 7px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.calendar__caption {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: $color-calendar-blue;
+}
+
+.calendar__row {
+  font-size: 13px;
+}
+
+.calendar__row_head {
+  font-weight: bold;
+  background-color: $color-calendar-blue;
+}
+
+.calendar__cell {
+  padding: 4px 8px;
+  text-align: center;
+}
+
+.calendar__cell_body:last-child {
+  color: $color-calendar-red;
+}
+
+.calendar__cell_head {
+  color: #fff;
+}
