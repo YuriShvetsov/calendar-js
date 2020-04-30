@@ -25,5 +25,5 @@ Output will be at dist:
 --------------------------------
 
 <div align="center">
-  <img width="500" height="auto" src="https://github.com/YuriShvetsov/calendar-js/blob/scr.jpg">
+  <img width="500" height="auto" src="https://github.com/YuriShvetsov/calendar-js/blob/master/scr.jpg">
 </div>
