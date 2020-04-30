@@ -4,9 +4,9 @@ $color-calendar-blue: #3172ff;
 $color-calendar-red: #ff3831;
 
 .calendar-year {
-  margin: 12px 0;
+  margin: 15px 0;
   font-family: 'Nunito', sans-serif;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
   color: $color-calendar-blue;
@@ -15,7 +15,7 @@ $color-calendar-red: #ff3831;
 .calendar-container {
   display: flex;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 10px;
   justify-content: center;
@@ -25,25 +25,25 @@ $color-calendar-red: #ff3831;
 
 .calendar {
   display: block;
-  margin: 4px;
+  margin: 5px;
   padding: 10px 0;
   background-color: #fff;
   border-collapse: collapse;
   border-spacing: 5px;
   border-radius: 5px;
-  box-shadow: 0 2px 7px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   overflow: hidden;
 }
 
 .calendar__caption {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   line-height: 1.6;
   color: $color-calendar-blue;
 }
 
 .calendar__row {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .calendar__row_head {
@@ -52,7 +52,7 @@ $color-calendar-red: #ff3831;
 }
 
 .calendar__cell {
-  padding: 4px 8px;
+  padding: 5px 10px;
   text-align: center;
 }
 
@@ -62,4 +62,35 @@ $color-calendar-red: #ff3831;
 
 .calendar__cell_head {
   color: #fff;
+}
+
+@media screen and (max-width: 1199px) {
+
+  .calendar-year {
+    margin: 12px 0;
+    font-size: 24px;
+  }
+  
+  .calendar-container {
+    max-width: 1000px;
+  }
+  
+  .calendar {
+    margin: 4px;
+    padding: 10px 0;
+    border-radius: 3px;
+  }
+  
+  .calendar__caption {
+    font-size: 18px;
+  }
+  
+  .calendar__row {
+    font-size: 13px;
+  }
+  
+  .calendar__cell {
+    padding: 4px 8px;
+  }
+
 }
